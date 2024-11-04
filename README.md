@@ -3,6 +3,8 @@
 ## Overview
 This project is a Python-based tool that uses OpenCV and Mediapipe to access the system camera, detect if a palm is open or closed, and mute or unmute the system audio accordingly. The tool runs a live video feed, processes hand landmarks, and toggles the audio based on palm state.
 
+![Palm Detection](welcome.png)
+
 ## Features
 - Detects whether the user's palm is open or closed using the Mediapipe library.
 - Mutes the system audio when an open palm is detected and unmutes when a closed palm is detected.
